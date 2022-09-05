@@ -1,0 +1,13 @@
+cabal-version: 3.4
+name: lib2
+version: 0.0.0.1
+
+library
+    hs-source-dirs: src
+    exposed-modules: Module
+    build-depends: base >= 4.7
+
+executable lib2
+    hs-source-dirs: .
+    main-is: Main.hs
+    build-depends: base >= 4.7, lib2
